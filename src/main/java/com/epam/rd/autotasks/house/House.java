@@ -7,7 +7,7 @@ public class House <T>{
     private final List<T> residents = new ArrayList<>();
 
     public void enter(T resident) {
-        if (residents.isEmpty() || residents.get(0).getClass().isInstance(resident))
+       /* if (residents.isEmpty() || residents.get(0).getClass().isInstance(resident))*/
             residents.add(resident);
     }
 
